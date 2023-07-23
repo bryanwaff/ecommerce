@@ -33,6 +33,7 @@ export const ApiAlert: React.FC<ApiAltertProps> = ({
         navigator.clipboard.writeText(description);
         toast.success("API Route copied to clipboard.");
     };
+    
     return (
         <Alert>
             <Server className="h-4 w-4" />
